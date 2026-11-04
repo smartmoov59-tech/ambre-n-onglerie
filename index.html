@@ -1,0 +1,615 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ambre N Onglerie · Prothésiste ongulaire & nail artist à Aix-en-Provence</title>
+<meta name="description" content="Semi-permanent, pose gel, rallongement et nail art à Aix-en-Provence (route de Saint-Canadet). Note 5,0 sur Google. Réservez en ligne ou au 07 85 57 93 00.">
+<meta name="theme-color" content="#25080F">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Ambre N Onglerie · Nail artist à Aix-en-Provence">
+<meta property="og:description" content="Des mains soignées, un nail art signé. Semi-permanent, gel, rallongement et nail art à Aix-en-Provence.">
+<meta property="og:image" content="img/photos/m01.jpg">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/fraunces-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/dmsans-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="media/hero-poster.jpg" as="image">
+<link rel="stylesheet" href="css/style.css">
+<script>
+  document.documentElement.classList.add('js');
+  // Filet de sécurité : si un script plante, le préchargeur ne bloque jamais la page.
+  setTimeout(function () { document.documentElement.classList.add('failsafe'); }, 8000);
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NailSalon",
+  "name": "Ambre N Onglerie",
+  "description": "Prothésiste ongulaire et nail artist à Aix-en-Provence : semi-permanent, pose gel, rallongement, nail art.",
+  "image": "img/photos/m01.jpg",
+  "telephone": "+33785579300",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "370 route de Saint-Canadet",
+    "postalCode": "13100",
+    "addressLocality": "Aix-en-Provence",
+    "addressCountry": "FR"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 43.5632856, "longitude": 5.4597205 },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "19:00" }
+  ],
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "15", "bestRating": "5" },
+  "sameAs": ["https://www.instagram.com/ambre.n_onglerie/"],
+  "hasMap": "https://www.google.com/maps/place/Ambre+N+Onglerie/@43.5632856,5.4597205,17z"
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Aller au contenu</a>
+
+<!-- ============ PRÉCHARGEUR ============ -->
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader__inner">
+    <svg class="loader__arch" viewBox="0 0 120 170" width="120" height="170" role="presentation">
+      <defs>
+        <clipPath id="archClip"><path d="M60 4C28 4 10 36 10 82v56c0 17 11 28 28 28h44c17 0 28-11 28-28V82C110 36 92 4 60 4z"/></clipPath>
+      </defs>
+      <g clip-path="url(#archClip)">
+        <rect width="120" height="170" fill="rgba(246,238,228,.08)"/>
+        <rect class="loader__fill" width="120" height="170" fill="#D98A24"/>
+        <path class="loader__gloss" d="M26 60c4-18 14-30 28-36" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="5" stroke-linecap="round"/>
+      </g>
+      <path d="M60 4C28 4 10 36 10 82v56c0 17 11 28 28 28h44c17 0 28-11 28-28V82C110 36 92 4 60 4z" fill="none" stroke="#F1C27B" stroke-width="1.5"/>
+    </svg>
+    <p class="loader__word" aria-hidden="true">Ambre N</p>
+    <p class="loader__sub">Onglerie · Aix-en-Provence</p>
+    <p class="loader__count"><span id="loaderNum">000</span><i>%</i></p>
+  </div>
+  <div class="loader__dome"></div>
+</div>
+
+<div class="cursor" id="cursor" aria-hidden="true"><span id="cursorLabel"></span></div>
+<div class="progress" id="progress" aria-hidden="true"></div>
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ============ NAVIGATION ============ -->
+<header class="nav" id="nav">
+  <a class="nav__logo" href="#top" aria-label="Ambre N Onglerie, retour en haut">
+    <svg viewBox="0 0 24 32" width="18" height="24" aria-hidden="true"><path d="M12 1C6 8 2 14 2 20a10 10 0 0 0 20 0C22 14 18 8 12 1z" fill="currentColor"/></svg>
+    <span>Ambre N</span>
+  </a>
+  <nav class="nav__links" aria-label="Navigation principale">
+    <a class="u-link" href="#savoir-faire">Savoir-faire</a>
+    <a class="u-link" href="#prestations">Prestations</a>
+    <a class="u-link" href="#galerie">Galerie</a>
+    <a class="u-link" href="#avis">Avis</a>
+    <a class="u-link" href="#contact">Contact</a>
+  </nav>
+  <a class="btn btn--sm btn--wine nav__cta" data-magnetic href="#reserver"><span>Réserver</span></a>
+  <button class="nav__burger" id="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Ouvrir le menu"><i></i><i></i></button>
+</header>
+
+<div class="menu" id="menu" aria-hidden="true">
+  <nav class="menu__nav" aria-label="Menu mobile">
+    <a href="#savoir-faire"><span>01</span>Savoir-faire</a>
+    <a href="#prestations"><span>02</span>Prestations</a>
+    <a href="#galerie"><span>03</span>Galerie</a>
+    <a href="#avis"><span>04</span>Avis</a>
+    <a href="#reserver"><span>05</span>Réserver</a>
+    <a href="#contact"><span>06</span>Contact</a>
+  </nav>
+  <div class="menu__foot">
+    <a href="tel:+33785579300">07 85 57 93 00</a>
+    <a href="https://www.instagram.com/ambre.n_onglerie/" target="_blank" rel="noopener">@ambre.n_onglerie</a>
+    <p>370 route de Saint-Canadet<br>13100 Aix-en-Provence</p>
+  </div>
+</div>
+
+<main id="main">
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top" aria-labelledby="heroTitle">
+  <div class="hero__media">
+    <video class="hero__video" id="heroVideo" autoplay muted loop playsinline preload="auto" poster="media/hero-poster.jpg" aria-hidden="true" tabindex="-1">
+      <source src="media/hero.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="hero__tint"></div>
+  <div class="hero__glow"></div>
+
+  <div class="hero__frames" aria-hidden="true">
+    <figure class="frame frame--a arch shine" data-depth="-0.22"><img src="img/photos/m01.jpg" alt="" width="1000" height="1333" decoding="async"></figure>
+    <figure class="frame frame--b arch shine" data-depth="0.18"><img src="img/photos/m05.jpg" alt="" width="1000" height="1333" decoding="async"></figure>
+    <figure class="frame frame--c arch shine" data-depth="-0.4"><img src="img/photos/m07.jpg" alt="" width="1000" height="1333" decoding="async"></figure>
+    <i class="orb orb--1"></i><i class="orb orb--2"></i><i class="orb orb--3"></i>
+  </div>
+
+  <div class="hero__inner">
+    <p class="kicker hero__kicker"><span class="kicker__dot"></span>Prothésiste ongulaire · Nail artist · Aix-en-Provence</p>
+    <h1 class="hero__title" id="heroTitle" aria-label="Ambre N Onglerie">
+      <span class="hero__line" aria-hidden="true"><span class="split">Ambre <em>N</em></span></span>
+      <span class="hero__line hero__line--2" aria-hidden="true"><span class="split">Onglerie</span></span>
+    </h1>
+    <div class="hero__bottom">
+      <p class="hero__lead">Des mains soignées, un nail art signé.<br>Semi-permanent, gel, rallongement et créations sur mesure, dans un local cosy à Aix-en-Provence.</p>
+      <div class="hero__cta">
+        <a class="btn btn--amber" data-magnetic href="#reserver"><span>Réserver mon rendez-vous</span></a>
+        <a class="btn btn--ghost" data-magnetic href="tel:+33785579300"><span>07 85 57 93 00</span></a>
+      </div>
+      <a class="hero__rating" href="https://www.google.com/maps/place/Ambre+N+Onglerie/@43.5632856,5.4597205,17z/data=!4m6!3m5!1s0x12c98d18f309ef83:0xfaad963ff84b1ae3!8m2!3d43.5632856!4d5.4597205!16s%2Fg%2F11yrwb50fv" target="_blank" rel="noopener" aria-label="5 sur 5, 15 avis Google, ouvre Google Maps dans un nouvel onglet">
+        <span class="stars" aria-hidden="true">★★★★★</span><b>5,0</b><span>15 avis Google</span>
+      </a>
+    </div>
+  </div>
+  <div class="hero__scroll" aria-hidden="true"><span>Défiler</span><i></i></div>
+</section>
+
+<!-- ============ MARQUEE ============ -->
+<section class="marquee" aria-label="Nos spécialités" id="marquee">
+  <div class="marquee__row" data-dir="-1">
+    <div class="marquee__track">
+      <span>Semi-permanent</span><i class="gem"></i><span>Pose gel</span><i class="gem"></i><span>Rallongement</span><i class="gem"></i><span>Nail art</span><i class="gem"></i><span>Faïence bleue</span><i class="gem"></i><span>Bordeaux miroir</span><i class="gem"></i>
+    </div>
+  </div>
+  <div class="marquee__row marquee__row--alt" data-dir="1">
+    <div class="marquee__track">
+      <span>Aix-en-Provence</span><i class="gem"></i><span>Citron</span><i class="gem"></i><span>Feuille d'or</span><i class="gem"></i><span>French</span><i class="gem"></i><span>Chrome</span><i class="gem"></i><span>Sur mesure</span><i class="gem"></i>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SAVOIR-FAIRE (pin) ============ -->
+<section class="story" id="savoir-faire" aria-labelledby="storyTitle">
+  <svg class="drip drip--top" data-drip data-seed="3" data-fill="amber" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"></svg>
+  <div class="story__pin">
+    <div class="story__text">
+      <p class="eyebrow" data-reveal>Le savoir-faire</p>
+      <h2 class="h2" id="storyTitle" data-split>Quatre gestes pour un résultat <em>miroir</em></h2>
+      <div class="story__steps">
+        <article class="step is-active" data-step="0">
+          <span class="step__num">01</span>
+          <h3>L'écoute</h3>
+          <p>Tout commence par une vraie conversation : forme, longueur, couleur, inspirations. Vos mains, votre rythme, vos envies, et des conseils honnêtes sur ce qui vous ira le mieux.</p>
+        </article>
+        <article class="step" data-step="1">
+          <span class="step__num">02</span>
+          <h3>La préparation</h3>
+          <p>Un beau résultat se joue avant la première couche. Peau, cuticules, surface de l'ongle : la base est soignée pour que la pose tienne dans la durée.</p>
+        </article>
+        <article class="step" data-step="2">
+          <span class="step__num">03</span>
+          <h3>La pose</h3>
+          <p>Gel, semi-permanent ou rallongement : couche après couche, sous lampe, jusqu'à ce reflet miroir qui change tout. Précis, net, sans compromis.</p>
+        </article>
+        <article class="step" data-step="3">
+          <span class="step__num">04</span>
+          <h3>La signature</h3>
+          <p>Un filet d'or, un citron, une fleur de faïence bleue : le dernier détail qui fait de vos mains une pièce unique, dessinée à la main.</p>
+        </article>
+      </div>
+    </div>
+    <div class="story__visual">
+      <div class="story__frame arch shine">
+        <img class="story__img is-on" src="img/photos/m08.jpg" alt="Ongles nude et lilas à reflets nacrés, bague dorée" width="1000" height="1333" loading="lazy" decoding="async">
+        <img class="story__img" src="img/photos/m04.jpg" alt="Fleurs bleues dessinées sur ongles nude amande" width="1000" height="1333" loading="lazy" decoding="async">
+        <img class="story__img" src="img/photos/m01.jpg" alt="Ongles longs carrés en vernis bordeaux miroir sur tissu blanc" width="1000" height="1333" loading="lazy" decoding="async">
+        <img class="story__img" src="img/photos/m09.jpg" alt="Ongles nude avec orange, rayures et motifs de faïence" width="1000" height="1333" loading="lazy" decoding="async">
+      </div>
+      <div class="story__meta" aria-hidden="true"><span class="story__idx">01</span><span class="story__of">/ 04</span></div>
+    </div>
+    <div class="story__progress" aria-hidden="true"><i></i></div>
+  </div>
+</section>
+
+<!-- ============ PRESTATIONS (scroll horizontal) ============ -->
+<section class="services" id="prestations" aria-labelledby="svcTitle">
+  <div class="hs" id="hs">
+    <div class="hs__track" id="hsTrack">
+      <div class="hs__intro">
+        <p class="eyebrow">Les prestations</p>
+        <h2 class="h2" id="svcTitle" data-split>Chaque main, <em>une histoire</em> à part</h2>
+        <p class="lead">Choisissez votre prestation, puis réservez en trois clics. Les tarifs sont communiqués par Ambre à la prise de rendez-vous.</p>
+        <p class="hs__hint" aria-hidden="true"><span>Faites défiler</span><i></i></p>
+      </div>
+
+      <!-- Tarifs : remplacer « Tarif sur demande » par le prix (ex. « à partir de 35 € ») -->
+      <article class="svc" data-service="Semi-permanent" data-tilt>
+        <div class="svc__img arch"><img src="img/photos/m02.jpg" alt="Ongles courts arrondis en jaune pastel avec un liseré doré" width="1000" height="1333" loading="lazy" decoding="async"><i class="glare"></i></div>
+        <div class="svc__body">
+          <span class="svc__no">01</span>
+          <h3>Semi-permanent</h3>
+          <p>La couleur qui tient, brillante et uniforme, du nude discret au bordeaux profond. Aucun temps de séchage.</p>
+          <p class="svc__price">Tarif sur demande</p>
+          <button class="svc__pick" type="button" data-pick="Semi-permanent"><span>Choisir</span><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        </div>
+      </article>
+
+      <article class="svc" data-service="Pose gel" data-tilt>
+        <div class="svc__img arch"><img src="img/photos/m08.jpg" alt="Ongles nude et lilas à reflets nacrés" width="1000" height="1333" loading="lazy" decoding="async"><i class="glare"></i></div>
+        <div class="svc__body">
+          <span class="svc__no">02</span>
+          <h3>Pose gel</h3>
+          <p>Du gel pour renforcer et structurer vos ongles : une base solide, fine et naturelle, ou plus affirmée.</p>
+          <p class="svc__price">Tarif sur demande</p>
+          <button class="svc__pick" type="button" data-pick="Pose gel"><span>Choisir</span><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        </div>
+      </article>
+
+      <article class="svc" data-service="Rallongement" data-tilt>
+        <div class="svc__img arch"><img src="img/photos/m06.jpg" alt="Ongles longs aux citrons et rayures bleues, french jaune" width="1000" height="1333" loading="lazy" decoding="async"><i class="glare"></i></div>
+        <div class="svc__body">
+          <span class="svc__no">03</span>
+          <h3>Rallongement</h3>
+          <p>Gagnez en longueur et en forme : amande, carré, ballerine… un rallongement équilibré, dessiné pour vos mains.</p>
+          <p class="svc__price">Tarif sur demande</p>
+          <button class="svc__pick" type="button" data-pick="Rallongement"><span>Choisir</span><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        </div>
+      </article>
+
+      <article class="svc" data-service="Nail art" data-tilt>
+        <div class="svc__img arch"><img src="img/photos/m03.jpg" alt="Ongles amande en nail art orange, bleu paon et perles dorées" width="1000" height="1333" loading="lazy" decoding="async"><i class="glare"></i></div>
+        <div class="svc__body">
+          <span class="svc__no">04</span>
+          <h3>Nail art</h3>
+          <p>Faïence bleue, citrons, feuillages dorés, chrome : des créations dessinées à la main, selon votre inspiration.</p>
+          <p class="svc__price">Tarif sur demande</p>
+          <button class="svc__pick" type="button" data-pick="Nail art"><span>Choisir</span><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        </div>
+      </article>
+
+      <article class="svc" data-service="Reprise et réparation" data-tilt>
+        <div class="svc__img arch"><img src="img/photos/m04.jpg" alt="Fleurs bleues dessinées sur ongles nude amande" width="1000" height="1333" loading="lazy" decoding="async"><i class="glare"></i></div>
+        <div class="svc__body">
+          <span class="svc__no">05</span>
+          <h3>Reprise &amp; réparation</h3>
+          <p>Une pose à reprendre, un ongle abîmé ? Une remise en beauté soignée, avec un diagnostic franc sur vos ongles.</p>
+          <p class="svc__price">Tarif sur demande</p>
+          <button class="svc__pick" type="button" data-pick="Reprise et réparation"><span>Choisir</span><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        </div>
+      </article>
+
+      <article class="svc" data-service="Conseil sur mesure" data-tilt>
+        <div class="svc__img arch"><img src="img/photos/m10.jpg" alt="French ornée de fleurs de faïence bleue sur ongles courts" width="1000" height="1333" loading="lazy" decoding="async"><i class="glare"></i></div>
+        <div class="svc__body">
+          <span class="svc__no">06</span>
+          <h3>Conseil sur mesure</h3>
+          <p>Vous ne savez pas par où commencer ? Venez avec vos inspirations : forme, finition, couleur, on trouve ensemble.</p>
+          <p class="svc__price">Tarif sur demande</p>
+          <button class="svc__pick" type="button" data-pick="Conseil sur mesure"><span>Choisir</span><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        </div>
+      </article>
+
+      <div class="hs__outro">
+        <p class="outro__big" data-split>Prête pour vos <em>prochains</em> ongles&nbsp;?</p>
+        <a class="btn btn--amber" data-magnetic href="#reserver"><span>Réserver maintenant</span></a>
+      </div>
+    </div>
+    <div class="hs__bar" aria-hidden="true"><i></i></div>
+  </div>
+</section>
+
+<!-- ============ CHIFFRES ============ -->
+<section class="numbers" id="chiffres" aria-labelledby="numTitle">
+  <svg class="drip drip--top" data-drip data-seed="7" data-fill="blush" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"></svg>
+  <div class="container">
+    <p class="eyebrow eyebrow--light" data-reveal>En quelques chiffres</p>
+    <h2 class="h2 h2--light" id="numTitle" data-split>La confiance, <em>ça se pose</em> aussi.</h2>
+    <ul class="numbers__grid">
+      <li class="num" data-reveal>
+        <span class="num__val"><b data-count="5" data-decimals="1">5,0</b></span>
+        <span class="num__label">Note moyenne sur Google</span>
+      </li>
+      <li class="num" data-reveal>
+        <span class="num__val"><b data-count="15">15</b></span>
+        <span class="num__label">Avis Google, tous en 5 étoiles</span>
+      </li>
+      <li class="num" data-reveal>
+        <span class="num__val"><b data-count="100">100</b><i>%</i></span>
+        <span class="num__label">De clientes et clients conquis</span>
+      </li>
+      <li class="num" data-reveal>
+        <span class="num__val"><b data-count="630">630</b></span>
+        <span class="num__label">Abonnés sur Instagram</span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ GALERIE ============ -->
+<section class="gallery" id="galerie" aria-labelledby="galTitle">
+  <svg class="drip drip--top" data-drip data-seed="9" data-fill="ink" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"></svg>
+  <div class="container">
+    <div class="gallery__head">
+      <div>
+        <p class="eyebrow" data-reveal>La galerie</p>
+        <h2 class="h2" id="galTitle" data-split>Des mains qui <em>parlent</em></h2>
+      </div>
+      <p class="lead" data-reveal>Une sélection de créations réalisées au salon. Cliquez sur une photo pour l'agrandir, et retrouvez le quotidien de l'atelier sur <a class="u-link" href="https://www.instagram.com/ambre.n_onglerie/" target="_blank" rel="noopener">Instagram</a>.</p>
+    </div>
+    <ul class="gal" id="gal">
+      <li class="gal__item gal__item--1"><button type="button" data-full="img/photos/m06.jpg" data-cap="Citrons et rayures bleues"><span class="gal__mask"><span class="gal__in"><img src="img/photos/m06.jpg" alt="Ongles longs aux citrons et rayures bleues, french jaune" width="1000" height="1333" loading="lazy" decoding="async"></span></span><span class="gal__cap"><b>Citrons &amp; rayures</b><i>Nail art</i></span></button></li>
+      <li class="gal__item gal__item--2"><button type="button" data-full="img/photos/m01.jpg" data-cap="Bordeaux miroir"><span class="gal__mask"><span class="gal__in"><img src="img/photos/m01.jpg" alt="Ongles longs carrés en vernis bordeaux miroir sur tissu blanc" width="1000" height="1333" loading="lazy" decoding="async"></span></span><span class="gal__cap"><b>Bordeaux miroir</b><i>Semi-permanent</i></span></button></li>
+      <li class="gal__item gal__item--3"><button type="button" data-full="img/photos/m10.jpg" data-cap="Faïence bleue"><span class="gal__mask"><span class="gal__in"><img src="img/photos/m10.jpg" alt="French ornée de fleurs de faïence bleue sur ongles courts" width="1000" height="1333" loading="lazy" decoding="async"></span></span><span class="gal__cap"><b>Faïence bleue</b><i>Nail art</i></span></button></li>
+      <li class="gal__item gal__item--4"><button type="button" data-full="img/photos/ig-2025-08-11.jpg" data-cap="Azulejos et citrons"><span class="gal__mask"><span class="gal__in"><img src="img/photos/ig-2025-08-11.jpg" alt="Faïence bleue et tranches de citron en nail art" width="480" height="640" loading="lazy" decoding="async"></span></span><span class="gal__cap"><b>Azulejos &amp; citrons</b><i>Nail art</i></span></button></li>
+      <li class="gal__item gal__item--5"><button type="button" data-full="img/photos/m03.jpg" data-cap="Orange, bleu paon et perles"><span class="gal__mask"><span class="gal__in"><img src="img/photos/m03.jpg" alt="Ongles amande en nail art orange, bleu paon et perles dorées" width="1000" height="1333" loading="lazy" decoding="async"></span></span><span class="gal__cap"><b>Orange &amp; bleu paon</b><i>Amande</i></span></button></li>
+      <li class="gal__item gal__item--6"><button type="button" data-full="img/photos/m07.jpg" data-cap="Vert olive et chrome doré"><span class="gal__mask"><span class="gal__in"><img src="img/photos/m07.jpg" alt="Ongles vert olive à liseré chromé doré" width="1000" height="1333" loading="lazy" decoding="async"></span></span><span class="gal__cap"><b>Olive &amp; chrome doré</b><i>Nail art</i></span></button></li>
+      <li class="gal__item gal__item--7"><button type="button" data-full="img/photos/m05.jpg" data-cap="Feuillages bleus et dorés"><span class="gal__mask"><span class="gal__in"><img src="img/photos/m05.jpg" alt="Feuillages bleus et dorés sur ongles blancs mats" width="1000" height="1333" loading="lazy" decoding="async"></span></span><span class="gal__cap"><b>Feuillages dorés</b><i>Blanc mat</i></span></button></li>
+      <li class="gal__item gal__item--8"><button type="button" data-full="img/photos/ig-2024-12-19.jpg" data-cap="French pailletée"><span class="gal__mask"><span class="gal__in"><img src="img/photos/ig-2024-12-19.jpg" alt="French pailletée dorée sur ongles longs rosés" width="640" height="640" loading="lazy" decoding="async"></span></span><span class="gal__cap"><b>French pailletée</b><i>Rallongement</i></span></button></li>
+      <li class="gal__item gal__item--9"><button type="button" data-full="img/photos/m09.jpg" data-cap="Orange, rayures et faïence"><span class="gal__mask"><span class="gal__in"><img src="img/photos/m09.jpg" alt="Ongles nude avec orange, rayures et motifs de faïence" width="1000" height="1333" loading="lazy" decoding="async"></span></span><span class="gal__cap"><b>Mandarine &amp; faïence</b><i>Nail art</i></span></button></li>
+      <li class="gal__item gal__item--10"><button type="button" data-full="img/photos/ig-2025-08-05.jpg" data-cap="Vert d'eau et écailles"><span class="gal__mask"><span class="gal__in"><img src="img/photos/ig-2025-08-05.jpg" alt="Ongles vert d'eau dégradé, motif d'écailles et strass" width="594" height="640" loading="lazy" decoding="async"></span></span><span class="gal__cap"><b>Vert d'eau &amp; écailles</b><i>Nail art</i></span></button></li>
+      <li class="gal__item gal__item--11"><button type="button" data-full="img/photos/m02.jpg" data-cap="Jaune pastel"><span class="gal__mask"><span class="gal__in"><img src="img/photos/m02.jpg" alt="Ongles courts arrondis en jaune pastel avec un liseré doré" width="1000" height="1333" loading="lazy" decoding="async"></span></span><span class="gal__cap"><b>Jaune pastel</b><i>Semi-permanent</i></span></button></li>
+      <li class="gal__item gal__item--12"><button type="button" data-full="img/photos/ig-2025-03-10.jpg" data-cap="Taches noires sur nude"><span class="gal__mask"><span class="gal__in"><img src="img/photos/ig-2025-03-10.jpg" alt="Ongles nude à taches noires, effet imprimé" width="640" height="640" loading="lazy" decoding="async"></span></span><span class="gal__cap"><b>Taches noires</b><i>Nail art</i></span></button></li>
+    </ul>
+    <p class="gallery__more"><a class="btn btn--wine" data-magnetic href="https://www.instagram.com/ambre.n_onglerie/" target="_blank" rel="noopener"><span>Voir plus sur Instagram</span></a></p>
+  </div>
+</section>
+
+<dialog class="lightbox" id="lightbox" aria-label="Photo agrandie">
+  <button class="lightbox__close" type="button" aria-label="Fermer">×</button>
+  <button class="lightbox__nav lightbox__nav--prev" type="button" aria-label="Photo précédente">←</button>
+  <figure><img id="lbImg" alt=""><figcaption id="lbCap"></figcaption></figure>
+  <button class="lightbox__nav lightbox__nav--next" type="button" aria-label="Photo suivante">→</button>
+</dialog>
+
+<!-- ============ ENTRETIEN ============ -->
+<section class="care" id="entretien" aria-labelledby="careTitle">
+  <div class="container care__grid">
+    <div class="care__lead">
+      <p class="eyebrow" data-reveal>Faire durer sa pose</p>
+      <h2 class="h2" id="careTitle" data-split>Quelques gestes, <em>beaucoup</em> d'éclat</h2>
+      <svg class="care__nail" viewBox="0 0 120 170" aria-hidden="true">
+        <path class="care__nail-line" d="M60 4C28 4 10 36 10 82v56c0 17 11 28 28 28h44c17 0 28-11 28-28V82C110 36 92 4 60 4z" fill="none" stroke="currentColor" stroke-width="1.5" pathLength="1"/>
+        <path class="care__nail-gloss" d="M28 64c4-18 14-30 28-36" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <div class="acc" id="acc">
+      <div class="acc__item is-open">
+        <h3><button type="button" aria-expanded="true" aria-controls="acc1"><span>Une goutte d'huile par jour</span><i></i></button></h3>
+        <div class="acc__panel" id="acc1"><div><p>Huile à cuticules matin ou soir : les ongles restent souples, la peau nette et la pose conserve son éclat plus longtemps.</p></div></div>
+      </div>
+      <div class="acc__item">
+        <h3><button type="button" aria-expanded="false" aria-controls="acc2"><span>Des gants pour le ménage</span><i></i></button></h3>
+        <div class="acc__panel" id="acc2"><div><p>Eau chaude et produits ménagers fragilisent les poses. Une paire de gants suffit à protéger vos mains.</p></div></div>
+      </div>
+      <div class="acc__item">
+        <h3><button type="button" aria-expanded="false" aria-controls="acc3"><span>Vos ongles ne sont pas des outils</span><i></i></button></h3>
+        <div class="acc__panel" id="acc3"><div><p>Ouvrir une canette, gratter une étiquette : c'est le meilleur moyen de soulever ou casser une pose. Un petit couteau de poche fera mieux le travail.</p></div></div>
+      </div>
+      <div class="acc__item">
+        <h3><button type="button" aria-expanded="false" aria-controls="acc4"><span>Ne tardez pas trop pour la reprise</span><i></i></button></h3>
+        <div class="acc__panel" id="acc4"><div><p>Quand la repousse commence à se voir, c'est le bon moment de reprendre rendez-vous. Ambre vous indique le rythme idéal selon vos ongles.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ AVIS ============ -->
+<section class="reviews" id="avis" aria-labelledby="revTitle">
+  <svg class="drip drip--top" data-drip data-seed="11" data-fill="cream" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"></svg>
+  <div class="container">
+    <div class="reviews__head">
+      <div>
+        <p class="eyebrow eyebrow--light" data-reveal>Ce qu'elles en disent</p>
+        <h2 class="h2 h2--light" id="revTitle" data-split>Cinq étoiles, <em>à chaque fois</em></h2>
+      </div>
+      <div class="reviews__score" data-reveal>
+        <b>5,0</b>
+        <span class="stars" aria-hidden="true">★★★★★</span>
+        <a class="u-link u-link--light" href="https://www.google.com/maps/place/Ambre+N+Onglerie/@43.5632856,5.4597205,17z/data=!4m6!3m5!1s0x12c98d18f309ef83:0xfaad963ff84b1ae3!8m2!3d43.5632856!4d5.4597205!16s%2Fg%2F11yrwb50fv" target="_blank" rel="noopener">15 avis sur Google</a>
+      </div>
+    </div>
+
+    <div class="rev" id="rev" role="region" aria-roledescription="carrousel" aria-label="Avis clients">
+      <div class="rev__viewport" id="revViewport">
+        <ul class="rev__track" id="revTrack">
+          <li class="rev__card" aria-roledescription="diapositive" aria-label="1 sur 5">
+            <span class="rev__quote" aria-hidden="true">“</span>
+            <blockquote><p>Maintenant que j'ai trouvé Ambre, je ne laisserai plus mes ongles à quelqu'un d'autre. Les poses, quelles qu'elles soient, sont toujours soignées, d'une qualité et d'une tenue incroyables. […] Son local est accessible, vraiment accueillant et cosy, on s'y sent bien dès qu'on arrive. Je recommande à 100%.</p></blockquote>
+            <footer><b>Maddyfve</b><span>Avis Google · ★★★★★</span></footer>
+          </li>
+          <li class="rev__card" aria-roledescription="diapositive" aria-label="2 sur 5">
+            <span class="rev__quote" aria-hidden="true">“</span>
+            <blockquote><p>Excellente prothésiste ongulaire ! Travail soigné, précis et toujours impeccable. Elle sait absolument tout faire : pose gel, semi-permanent, rallongements, nail art… Le résultat est toujours à la hauteur, voire au-delà de mes attentes, et les ongles tiennent parfaitement.</p></blockquote>
+            <footer><b>Ludivine G.</b><span>Avis Google · ★★★★★</span></footer>
+          </li>
+          <li class="rev__card" aria-roledescription="diapositive" aria-label="3 sur 5">
+            <span class="rev__quote" aria-hidden="true">“</span>
+            <blockquote><p>Plus de 2 ans qu'Ambre est ma prothésiste ongulaire, je n'ai jamais été déçue ! Toujours professionnelle, de bons conseils et à l'écoute. Son travail est impeccable et les ongles restent niquel sur la durée.</p></blockquote>
+            <footer><b>Margaux C.</b><span>Avis Google · ★★★★★</span></footer>
+          </li>
+          <li class="rev__card" aria-roledescription="diapositive" aria-label="4 sur 5">
+            <span class="rev__quote" aria-hidden="true">“</span>
+            <blockquote><p>Ambre est une vraie professionnelle, à l'écoute et qui saura vous conseiller sur ce qui est le plus adapté à vos ongles. Je ne suis jamais ressortie d'un rendez-vous en étant déçue ! Vous pouvez y aller les yeux fermés !</p></blockquote>
+            <footer><b>Léa T.</b><span>Avis Google · ★★★★★</span></footer>
+          </li>
+          <li class="rev__card" aria-roledescription="diapositive" aria-label="5 sur 5">
+            <span class="rev__quote" aria-hidden="true">“</span>
+            <blockquote><p>Ambre est de très bon conseil, et arrive parfaitement à reprendre les imperfections que peuvent avoir subies nos ongles. Très professionnelle et accueillante.</p></blockquote>
+            <footer><b>Viviane F.</b><span>Avis Google · ★★★★★</span></footer>
+          </li>
+        </ul>
+      </div>
+      <div class="rev__ctrl">
+        <button class="rev__btn" id="revPrev" type="button" aria-label="Avis précédent">←</button>
+        <div class="rev__bar" aria-hidden="true"><i id="revBar"></i></div>
+        <span class="rev__count" id="revCount" aria-live="polite">01 / 05</span>
+        <button class="rev__btn" id="revNext" type="button" aria-label="Avis suivant">→</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ RÉSERVATION ============ -->
+<section class="book" id="reserver" aria-labelledby="bookTitle">
+  <svg class="drip drip--top" data-drip data-seed="13" data-fill="wine" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"></svg>
+  <div class="container book__grid">
+    <div class="book__intro">
+      <p class="eyebrow" data-reveal>Réserver</p>
+      <h2 class="h2" id="bookTitle" data-split>Votre moment, <em>à votre heure</em></h2>
+      <p class="lead" data-reveal>Composez votre demande en quelques clics : prestation, jour, créneau. Elle part par SMS directement à Ambre, qui vous confirme la disponibilité.</p>
+      <ul class="book__points" data-reveal>
+        <li><i class="gem"></i>Sans compte, sans application</li>
+        <li><i class="gem"></i>Confirmation par SMS de la part d'Ambre</li>
+        <li><i class="gem"></i>Ouvert du lundi au vendredi, 9h – 19h</li>
+      </ul>
+      <div class="book__alt" data-reveal>
+        <p>Vous préférez en parler ?</p>
+        <a class="u-link" href="tel:+33785579300">Appeler le 07 85 57 93 00</a>
+        <a class="u-link" href="https://ig.me/m/ambre.n_onglerie" target="_blank" rel="noopener">Écrire sur Instagram</a>
+      </div>
+    </div>
+
+    <div class="book__panel" id="booking">
+      <ol class="bsteps" id="bsteps" aria-label="Étapes de réservation">
+        <li class="is-current"><span>1</span>Prestation</li>
+        <li><span>2</span>Créneau</li>
+        <li><span>3</span>Vous</li>
+        <li><span>4</span>Envoi</li>
+      </ol>
+      <form id="bookingForm" novalidate>
+        <section class="bstep is-current" data-bstep="1" aria-labelledby="b1">
+          <h3 id="b1">Quelle(s) prestation(s) ?</h3>
+          <p class="bhint">Plusieurs choix possibles : par exemple semi-permanent + nail art.</p>
+          <div class="chips" id="svcChips" role="group" aria-labelledby="b1"></div>
+        </section>
+
+        <section class="bstep" data-bstep="2" aria-labelledby="b2" hidden>
+          <h3 id="b2">Quel jour, quelle heure ?</h3>
+          <p class="bhint">Votre créneau souhaité. Ambre vous confirme ou vous propose une alternative proche.</p>
+          <div class="dates" id="dates" role="group" aria-label="Jours disponibles"></div>
+          <div class="slots" id="slots" role="group" aria-label="Créneaux horaires"></div>
+        </section>
+
+        <section class="bstep" data-bstep="3" aria-labelledby="b3" hidden>
+          <h3 id="b3">Un dernier détail</h3>
+          <div class="field"><label for="fName">Votre prénom</label><input id="fName" name="name" type="text" autocomplete="given-name" placeholder="Camille" required></div>
+          <div class="field field--inline">
+            <span id="firstLabel">Première visite&nbsp;?</span>
+            <div class="toggle" role="group" aria-labelledby="firstLabel">
+              <button type="button" data-first="yes" aria-pressed="false">Oui</button>
+              <button type="button" data-first="no" aria-pressed="false">Non</button>
+            </div>
+          </div>
+          <div class="field"><label for="fNote">Une envie, une inspiration&nbsp;? <small>(facultatif)</small></label><textarea id="fNote" name="note" rows="3" placeholder="Forme amande, couleur bordeaux, nail art fleurs bleues…"></textarea></div>
+        </section>
+
+        <section class="bstep" data-bstep="4" aria-labelledby="b4" hidden>
+          <h3 id="b4">Votre demande est prête</h3>
+          <div class="ticket" id="ticket" aria-live="polite"></div>
+          <div class="send">
+            <a class="btn btn--amber btn--lg" id="sendSms" href="#"><span>Envoyer par SMS</span></a>
+            <div class="send__alt">
+              <button class="btn btn--ghost-dark" id="copyMsg" type="button"><span>Copier le message</span></button>
+              <a class="btn btn--ghost-dark" id="sendIg" href="https://ig.me/m/ambre.n_onglerie" target="_blank" rel="noopener"><span>Via Instagram</span></a>
+              <a class="btn btn--ghost-dark" href="tel:+33785579300"><span>Appeler</span></a>
+              <button class="btn btn--ghost-dark" id="dlIcs" type="button"><span>Ajouter à mon agenda</span></button>
+            </div>
+            <div class="qr" id="qr" hidden>
+              <div class="qr__img" id="qrImg" aria-hidden="true"></div>
+              <p><b>Sur ordinateur&nbsp;?</b><br>Scannez ce code avec votre téléphone : le SMS s'ouvre déjà rédigé, il ne reste qu'à l'envoyer.</p>
+            </div>
+            <p class="send__note">Votre demande n'est confirmée qu'après la réponse d'Ambre. Aucune donnée n'est envoyée ni stockée par ce site.</p>
+          </div>
+        </section>
+
+        <p class="berror" id="berror" role="alert" hidden></p>
+        <div class="bnav">
+          <button class="bback" id="bBack" type="button" hidden>← Retour</button>
+          <button class="btn btn--wine" id="bNext" type="button" data-magnetic><span>Continuer</span></button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT / NOUS TROUVER ============ -->
+<section class="contact" id="contact" aria-labelledby="contactTitle">
+  <div class="container contact__grid">
+    <div class="contact__info">
+      <p class="eyebrow" data-reveal>Nous trouver</p>
+      <h2 class="h2" id="contactTitle" data-split>Le salon, <em>route de Saint-Canadet</em></h2>
+      <address class="contact__addr" data-reveal>
+        <b>Ambre N Onglerie</b><br>
+        370 route de Saint-Canadet<br>
+        13100 Aix-en-Provence
+      </address>
+      <p class="contact__status" id="openStatus" data-reveal><i class="dot"></i><span>Horaires en cours de lecture…</span></p>
+      <table class="hours" data-reveal>
+        <caption class="sr-only">Horaires d'ouverture</caption>
+        <tbody>
+          <tr data-day="1"><th scope="row">Lundi</th><td>9h00 – 19h00</td></tr>
+          <tr data-day="2"><th scope="row">Mardi</th><td>9h00 – 19h00</td></tr>
+          <tr data-day="3"><th scope="row">Mercredi</th><td>9h00 – 19h00</td></tr>
+          <tr data-day="4"><th scope="row">Jeudi</th><td>9h00 – 19h00</td></tr>
+          <tr data-day="5"><th scope="row">Vendredi</th><td>9h00 – 19h00</td></tr>
+          <tr data-day="6" class="is-closed"><th scope="row">Samedi</th><td>Fermé</td></tr>
+          <tr data-day="0" class="is-closed"><th scope="row">Dimanche</th><td>Fermé</td></tr>
+        </tbody>
+      </table>
+      <div class="contact__actions" data-reveal>
+        <a class="btn btn--wine" data-magnetic href="tel:+33785579300"><span>Appeler</span></a>
+        <a class="btn btn--ghost-dark" data-magnetic href="https://www.google.com/maps/dir/?api=1&destination=Ambre+N+Onglerie%2C+370+Route+de+Saint-Canadet%2C+13100+Aix-en-Provence" target="_blank" rel="noopener"><span>Itinéraire</span></a>
+      </div>
+    </div>
+    <div class="contact__map" data-reveal>
+      <div class="mapframe arch-top">
+        <iframe title="Carte Google Maps : Ambre N Onglerie, 370 route de Saint-Canadet, Aix-en-Provence" src="https://www.google.com/maps?q=Ambre+N+Onglerie,+370+Route+de+Saint-Canadet,+13100+Aix-en-Provence&amp;hl=fr&amp;z=15&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+      </div>
+      <a class="maplink" href="https://www.google.com/maps/place/Ambre+N+Onglerie/@43.5632856,5.4597205,17z/data=!4m6!3m5!1s0x12c98d18f309ef83:0xfaad963ff84b1ae3!8m2!3d43.5632856!4d5.4597205!16s%2Fg%2F11yrwb50fv" target="_blank" rel="noopener">Ouvrir dans Google Maps <span aria-hidden="true">↗</span><span class="sr-only">(nouvel onglet)</span></a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer" id="footer">
+  <svg class="drip drip--top" data-drip data-seed="5" data-fill="blushsoft" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true"></svg>
+  <div class="container footer__top">
+    <div>
+      <p class="footer__tag">Des mains soignées,<br><em>un nail art signé.</em></p>
+    </div>
+    <nav class="footer__cols" aria-label="Pied de page">
+      <div>
+        <h3>Explorer</h3>
+        <a class="u-link u-link--light" href="#savoir-faire">Savoir-faire</a>
+        <a class="u-link u-link--light" href="#prestations">Prestations</a>
+        <a class="u-link u-link--light" href="#galerie">Galerie</a>
+        <a class="u-link u-link--light" href="#avis">Avis</a>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <a class="u-link u-link--light" href="tel:+33785579300">07 85 57 93 00</a>
+        <a class="u-link u-link--light" href="#reserver">Réserver en ligne</a>
+        <a class="u-link u-link--light" href="https://www.instagram.com/ambre.n_onglerie/" target="_blank" rel="noopener">Instagram</a>
+        <a class="u-link u-link--light" href="https://www.google.com/maps/place/Ambre+N+Onglerie/@43.5632856,5.4597205,17z/data=!4m6!3m5!1s0x12c98d18f309ef83:0xfaad963ff84b1ae3!8m2!3d43.5632856!4d5.4597205!16s%2Fg%2F11yrwb50fv" target="_blank" rel="noopener">Google Maps</a>
+      </div>
+      <div>
+        <h3>Salon</h3>
+        <p>370 route de Saint-Canadet<br>13100 Aix-en-Provence</p>
+        <p>Lun – ven · 9h – 19h</p>
+      </div>
+    </nav>
+  </div>
+  <div class="footer__giant" aria-hidden="true"><span class="split">AMBRE N</span></div>
+  <div class="container footer__bottom">
+    <p>© <span id="year">2026</span> Ambre N Onglerie. Photos : Ambre N Onglerie. Vidéo d'ambiance : Pexels.</p>
+    <button class="u-link u-link--light" id="toTop" type="button">Retour en haut ↑</button>
+  </div>
+</footer>
+
+<div class="mcta" aria-label="Actions rapides">
+  <a class="mcta__call" href="tel:+33785579300"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>Appeler</a>
+  <a class="mcta__book" href="#reserver">Réserver</a>
+</div>
+
+<script src="js/vendor/gsap.min.js"></script>
+<script src="js/vendor/ScrollTrigger.min.js"></script>
+<script src="js/vendor/lenis.min.js"></script>
+<script src="js/vendor/qrcode.js"></script>
+<script src="js/booking.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
